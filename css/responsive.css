@@ -26,16 +26,21 @@
     align-items: center;
   }
 
-  .lessons .col {
+  .lessons .col,
+  .steps .col {
     width: 100%;
   }
 
-  .lessons .text {
+  .lessons .text,
+  .steps .text {
     padding: 0 80px;
     padding-bottom: 50px;
   }
 
   .steps {
     margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 0;
   }
+
 }
