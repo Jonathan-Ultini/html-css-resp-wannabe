@@ -17,3 +17,20 @@
   }
 
 }
+
+
+/* Media query per schermi con larghezza massima di 576px */
+@media screen and (max-width: 576px) {
+
+  /* Adatta la larghezza del container */
+  .container {
+    width: 100%;
+  }
+
+  /* Imposta le righe in flexbox con direzione colonna */
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
