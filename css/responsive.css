@@ -21,16 +21,21 @@
 
 /* Media query per schermi con larghezza massima di 576px */
 @media screen and (max-width: 576px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
 
-  /* Adatta la larghezza del container */
-  .container {
+  .lessons .col {
     width: 100%;
   }
 
-  /* Imposta le righe in flexbox con direzione colonna */
-  .row {
-    display: flex;
-    flex-direction: column;
+  .lessons .text {
+    padding: 0 80px;
+    padding-bottom: 50px;
   }
 
+  .steps {
+    margin: 0;
+  }
 }
