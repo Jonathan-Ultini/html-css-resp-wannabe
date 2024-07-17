@@ -43,4 +43,25 @@
     padding-bottom: 0;
   }
 
+  .why-us {
+    padding-top: 50px;
+  }
+
+  body {
+    background-color: #222222;
+  }
+
+  .lessons,
+  header {
+    background: #232946;
+  }
+
+  .site-header {
+    margin-top: 0;
+    padding: 2rem;
+  }
+
+  .site-header h1 {
+    margin-bottom: 1rem;
+  }
 }
