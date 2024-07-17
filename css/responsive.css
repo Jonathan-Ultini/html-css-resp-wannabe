@@ -1,0 +1,19 @@
+/* responsive.css */
+
+/* Media query per schermi con larghezza massima di 768px */
+@media screen and (max-width: 768px) {
+
+  /* Adatta la larghezza del container */
+  .container {
+    width: 100%;
+  }
+
+  .why-us .col-right p {
+    font-size: 15.5px;
+  }
+
+  .why-us {
+    margin-bottom: 4rem;
+  }
+
+}
